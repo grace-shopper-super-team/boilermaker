@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server --ignore /client --ignore /public"
   },
   "author": "Erik Shuttlesworth <erik.shuttlesworth@gmail.com> (https://github.com/emshuttles)",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.4"
+    "body-parser": "^1.18.0",
+    "express": "^4.15.4",
+    "nodemon": "1.12.0",
+    "volleyball": "^1.4.1"
   }
 }
