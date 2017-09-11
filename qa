@@ -1,0 +1,3 @@
+-- Questions to ask
+-- pg-hstore: what is it used for
+-- in DB, why do we split up db/index.js and db/db.js
