@@ -27,7 +27,6 @@ app.use(bodyParser.urlencoded({ extended: true}))
 //routes
 app.use('/api', require('./api'))
 
-
 // AT THE END OF ALL ROUTES
 // send Index HTML
 app.get('*', function (req, res) {

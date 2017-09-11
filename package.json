@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server --ignore /client --ignore /public"
+    "start": "nodemon start.js --ignore /client --ignore /public"
   },
   "author": "Erik Shuttlesworth <erik.shuttlesworth@gmail.com> (https://github.com/emshuttles)",
   "license": "ISC",
